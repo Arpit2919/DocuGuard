@@ -10,6 +10,7 @@ ML engineering roles — the problem shape (spot manipulated identity documents
 at upload time) mirrors what KYC/identity-verification platforms solve in
 production.
 
+
 ## Why synthetic data?
 
 Real government-issued ID documents are sensitive PII. They can't legally be
@@ -199,6 +200,7 @@ docker run -p 8000:8000 docuguard
 ```bash
 pytest tests/ -v
 ```
+
 
 ## Honest limitations
 
